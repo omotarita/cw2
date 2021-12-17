@@ -3,15 +3,53 @@
 Most students will use the same repository for coursework 2. You may use this file to present the results of that
 coursework if you wish. Alternatively you can use video or audio to provide the explanations instead of writing them.
 
-## Requirements definition and analysis
-The term 'requirements' is used in the broader sense, user stories and/or use cases may be used.
-### Requirements identification methods
+## **Requirements definition and analysis**
 
-### Requirement specification method
+Requirements engineering is an iterative process in software engineering in which the expected capabilities of a finished product are discovered (or elicited), made more specific, validated and possibly changed. It plays an integral role in the development of a product, as these requirements come to shape the product goals which engineers, product managers and designers refer back to throughout development to ensure the product, once built, meets stakeholders' expectations. 
 
-### Prioritisation method
+The innate complexity of software engineering projects is facilitated by the dividing up the work across different roles carried out by various team members. However, this "split" introduces complexities of its own such as fractionated progress due to individual interpretations of product goals. Requirements help manage this, as they ensure team members share a united perspective on the expectations of the finished product. This reduces project cost, as it mitigates the risk of building unsuccessful products.
 
-### Documented and prioritised requirements
+ 
+
+### **Requirements identification methods**
+
+The BABOK Guide (Business Analysis Body of Knowledge) provides a number of techniques that can be used to elicit requirements for software engineering projects. As a project is fundamentally underpinned by a need to serve users, they serve as the most useful source for discovering (or gathering) requirements.
+
+Although the requirements identification methods available for this project are limited to solely brainstorming, if this were a real-world project, I believe focus groups, user interviews and observation would also be useful methods to undertake. (why??)
+
+To ensure I gathered a diverse range of requirements through brainstorming, I followed divergent design thinking principles to arrive at a wealth of ideas. Here's a list of some of the requirements I came up with:
+
+1. ...
+2. 
+
+### **Requirement specification method**
+
+After identifying a number of requirements, I formalised these into user stories. I chose this specification method as it uses natural language, thus ensuring widespread comprehensibility, and it goes even further by providing an insight into the rationale behind each user requirement, which the traditional "shall" natural language specification does not. User stories are also commonly used by Agile teams to specify requirements, so this method seemed appropriate given that this project is underpinned by the Data-driven Scrum methodology (which is an Agile framework).
+
+Here are some of the user stories I came up with:
+
+### **Prioritisation method**
+
+To prioritise these, I followed the 100 points/$100 method, 
+
+### **Documented and prioritised requirements**
+
+...
+
+### Validation
+
+I validated my set of requirements against the following criteria:
+
+| Requirement | Validity (Y/N) | Consistency (Y/N) | Completeness (Y/N) | Realism (Y/N) | Verifiability (Y/N) |
+| --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+1. Validity - do they reflect the real, changing needs of the users?
+2. Consistency - is there duplication or any contradictory constraints?
+3. Completeness - do they include everything needed?
+4. Realism - can they realistically be implemented in the technology, budget and time?
+5. Verifiability - can they be tested?
+
 Link to the full list of documented and prioritised requirements.
 
 
