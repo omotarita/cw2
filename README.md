@@ -35,13 +35,16 @@ To prioritise these, I considered a number of methods commonly adopted across so
 
 ### **Documented and prioritised requirements**
 
-... (a table listing all the requirements in user stories, describing them as functional/non-functional, their category and whether they're a must, should, could or won't)
+... (a table listing all the requirements in user stories, describing them as functional/non-functional, their category and whether they're a must, should, could or won't: as a link to a csv file in the folder)
+
+[Full List of Prioritised Requirements](Requirements.csv)
+
+(a second, shortened table of just the top 5 requirements)
 
 | Requirement | Relative Weighting Score | Functionality | Category |
 | --- | --- | --- | --- |
 |  |  |  |  |
 |  |  |  |  |
-(a second, shortened table of just the musts and some shoulds)
 
 ### Validation
 
