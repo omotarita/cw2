@@ -35,7 +35,7 @@ After identifying a number of requirements, I formalised each of these into user
 
 ### **Prioritisation method**
 
-To prioritise these, I considered a number of methods commonly adopted across software engineering and its related disciplines; namely the Harris Profile, the MoSCoW method and the 100-point method (find here [an exhaustive list of prioritisation methods](https://toolkits.dss.cloud/design/), as documented in the design method toolkit by the Digital Society School).
+To prioritise these, I considered a number of methods commonly adopted across software engineering and its related disciplines; namely the Harris Profile, the MoSCoW method and the 100-point method ([find here a more exhaustive list of prioritisation methods](https://toolkits.dss.cloud/design/)).
 
 
 ### **Documented and prioritised requirements**
