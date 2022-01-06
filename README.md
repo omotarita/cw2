@@ -17,24 +17,32 @@ The BABOK Guide (Business Analysis Body of Knowledge) provides a number of techn
 
 Although the requirements identification methods available for this project are limited to solely brainstorming, if this were a real-world project, I believe focus groups, user interviews and observation would also be useful methods to undertake. (why??)
 
-To ensure I gathered a diverse range of requirements through brainstorming, I followed divergent design thinking principles to arrive at a wealth of ideas. Here's a list of some of the requirements I came up with:
+To ensure I gathered a diverse range of requirements through brainstorming, I followed divergent design thinking principles to arrive at a wealth of ideas. Here's a list of some of the basic requirement ideas I came up with:
 
-1. ...
-2. 
+1. Quick results
+2. Accurate results
+3. Ease of navigation from results to the actual movies (possibly via hyperlink)
+4. Login/Create Account functionality
+5. Users with accounts can save movie preferences
+6. Users with accounts can indicate what movies they've watched already
+7. Linked to Netflix rating system to adapt user recommendations
+
 
 ### **Requirement specification method**
 
-After identifying a number of requirements, I formalised these into user stories. I chose this specification method as it uses natural language, thus ensuring widespread comprehensibility, and it goes even further by providing an insight into the rationale behind each user requirement, which the traditional "shall" natural language specification does not. User stories are also commonly used by Agile teams to specify requirements, so this method seemed appropriate given that this project is underpinned by the Data-driven Scrum methodology (which is an Agile framework).
-
-Here are some of the user stories I came up with:
+After identifying a number of requirements, I formalised each of these into user stories. I chose this specification method as it uses natural language, thus ensuring widespread comprehensibility, and it goes even further by providing an insight into the rationale behind each user requirement, which the traditional "shall" natural language specification does not. User stories are also commonly used by Agile teams to specify requirements, so this method seemed appropriate given that this project is underpinned by the Data-driven Scrum methodology (which is an Agile framework). 
+(more!! )
 
 ### **Prioritisation method**
 
-To prioritise these, I followed the 100 points/$100 method, 
+To prioritise these, I considered a number of methods commonly adopted across software engineering and its related disciplines; namely the Harris Profile, the MoSCoW method and the 100-point method [(find here an exhaustive list of prioritisation methods, as documented in the design method toolkit by the Digital Society School)](https://toolkits.dss.cloud/design/).
+
 
 ### **Documented and prioritised requirements**
 
-...
+... (a table listing all the requirements in user stories, describing them as functional/non-functional, their category and whether they're a must, should, could or won't)
+
+(a second, shortened table of just the musts and some shoulds)
 
 ### Validation
 
