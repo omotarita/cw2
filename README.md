@@ -31,7 +31,9 @@ After identifying a number of requirements, I formalised each of these into user
 
 ### **Prioritisation method**
 
-To prioritise these, I considered a number of methods commonly adopted across software engineering and its related disciplines; namely the MoSCoW method, the Relative Weighting method and the 100-point method ([find here a more exhaustive list of prioritisation methods](https://toolkits.dss.cloud/design/)). I selected these three methods due to their simple quantification and/or categorisation of requirements according to realistic criteria (such as feasibility, cost, benefit etc.), which allows for more rapid prioritisation by product owners and software engineers. Although the MoSCoW method is more commonplace in Agile applications, I preferred to use a method which quantifies requirements, as opposed to simply categorising them, as this facilitates the creation of hierarchy in the requirements backlog. Ultimately, I chose the Relative Weighting method as its quantification takes into account the predicted benefit, penalty, cost and risk of each requirement, thus making it a considerably informed prioritisation method. Conversely, the 100-point method wasn’t chosen as, in spite of also quantifying requirements, it effectively represents a voting poll, with each voter scoring requirements using independent, undocumented criteria; as such, I felt requirements' scores were somewhat inconsistent. 
+To prioritise these, I considered a number of methods commonly adopted across software engineering and its related disciplines; namely the MoSCoW method, the Relative Weighting method and the 100-point method ([find here a more exhaustive list of prioritisation methods](https://toolkits.dss.cloud/design/)). I selected these three methods due to their simple quantification and/or categorisation of requirements according to realistic criteria (such as feasibility, cost, benefit etc.), which allows for more rapid prioritisation by product owners and software engineers. 
+
+Although the MoSCoW method is more commonplace in Agile applications, I preferred to use a method which quantifies requirements, as opposed to simply categorising them, as this facilitates the creation of hierarchy in the requirements backlog. Ultimately, I chose the **Relative Weighting method** as its quantification takes into account the predicted benefit, penalty, cost and risk of each requirement, thus making it a considerably informed prioritisation method. Conversely, the 100-point method wasn’t chosen as, in spite of also quantifying requirements, it effectively represents a voting poll, with each voter scoring requirements using independent, undocumented criteria; as such, I felt requirements' scores were somewhat inconsistent. 
 
 ### **Documented and prioritised requirements**
 
@@ -87,57 +89,57 @@ Consider using GitHub Actions (or other) to establish a continuous integration p
 
 ### Report 1
 
-*What I did in the last week:*
+**What I did in the last week:**
 
 I assessed the requirements for my app by breaking down users needs through writing user stories and categorising these into app features. I then specified these using the MoSCoW prioritisation technique
 
-*What I plan to do in the next week:*
+**What I plan to do in the next week:**
 
 I'll visualise these requirements by designing wireframes for my app. I'll also go deeper into breaking down how I'll achieve each of these requirements using application architecture (and possibly UML)
 
-*Issues blocking my progress:*
+**Issues blocking my progress:**
 
 None
 
 ### Report 2
 
-*What I did in the last week:*
+**What I did in the last week:**
 
 I explored some commonly-used design patterns for Flask (e.g. MVC and Facade) and designed wireframes for my app.
 
-*What I plan to do in the next week:*
+**What I plan to do in the next week:**
 
 Next week I plan to further flesh out my work on the design for this web-app and explore aspects of database design.
 
-*Issues blocking my progress:*
+**Issues blocking my progress:**
 
 I've had to leave the country at short notice for familial reasons - as such, preparations for the trip and the long flight have meant that I've had less time than I'd have liked to make progress in the project. This won't be a problem in future sprints, as I plan to be back at the start of the week.
 
 ### Report 3
 
-*What I did in the last week:*
+**What I did in the last week:**
 
 Learnt about code quality standards and applied this learning to my work
 
-*What I plan to do in the next week:*
+**What I plan to do in the next week:**
 
 I plan to run some unit tests on my code
 
-*Issues blocking my progress:*
+**Issues blocking my progress:**
 
 Time spent abroad did impede my work slightly at the start of the week, but things are picking up
 
 ### Report 4
 
-*What I did in the last week:*
+**What I did in the last week:**
 
 Unfortunately, I haven't been able to make any progress on the coursework project this week
 
-*What I plan to do in the next week:*
+**What I plan to do in the next week:**
 
 Next week, I plan to practice running unit tests using the pytest tool and wrap up the coursework 
 
-*Issues blocking my progress:*
+**Issues blocking my progress:**
 
 I have been unwell for the past week, which has made it quite difficult to work. I can't predict when this will cease to be a problem, but hopefully, it will be soon.
 
