@@ -19,29 +19,28 @@ Although the requirements identification methods available for this project are 
 
 To ensure I gathered a diverse range of requirements through brainstorming, I followed divergent design thinking principles to arrive at a wealth of ideas. Here's a list of some of the basic requirement ideas I came up with:
 
-1. Quick results
-2. Accurate results
-3. Ease of navigation from results to the actual movies (possibly via hyperlink)
-4. Login/Create Account functionality
-5. Users with accounts can save movie preferences
-6. Users with accounts can indicate what movies they've watched already
-7. Linked to Netflix rating system to adapt user recommendations
+- Login/Create Account functionality
+- Users with accounts can indicate what movies they've watched already
+- Filter by streaming platform option
 
 
 ### **Requirement specification method**
 
 After identifying a number of requirements, I formalised each of these into user stories. I chose this specification method as it uses natural language, thus ensuring widespread comprehensibility, and it goes even further by providing an insight into the rationale behind each user requirement, which the traditional "shall" natural language specification does not. User stories are also commonly used by Agile teams to specify requirements, so this method seemed appropriate given that this project is underpinned by the Data-driven Scrum methodology (which is an Agile framework). 
-(more!! )
+
 
 ### **Prioritisation method**
 
-To prioritise these, I considered a number of methods commonly adopted across software engineering and its related disciplines; namely the Harris Profile, the MoSCoW method and the 100-point method ([find here a more exhaustive list of prioritisation methods](https://toolkits.dss.cloud/design/)).
-
+To prioritise these, I considered a number of methods commonly adopted across software engineering and its related disciplines; namely the MoSCoW method, the Relative Weighting method and the 100-point method ([find here a more exhaustive list of prioritisation methods](https://toolkits.dss.cloud/design/)). I selected these three methods due to their simple quantification and/or categorisation of requirements according to realistic criteria (such as feasibility, cost, benefit etc.), which allows for more rapid prioritisation by product owners and software engineers. Although the MoSCoW method is more commonplace in Agile applications, I preferred to use a method which quantifies requirements, as opposed to simply categorising them, as this facilitates the creation of hierarchy in the requirements backlog. Ultimately, I chose the Relative Weighting method as its quantification takes into account the predicted benefit, penalty, cost and risk of each requirement, thus making it a considerably informed prioritisation method. Conversely, the 100-point method wasn’t chosen as, in spite of also quantifying requirements, it effectively represents a voting poll, with each voter scoring requirements using independent, undocumented criteria; as such, I felt requirements' scores were somewhat inconsistent. 
 
 ### **Documented and prioritised requirements**
 
 ... (a table listing all the requirements in user stories, describing them as functional/non-functional, their category and whether they're a must, should, could or won't)
 
+| Requirement | Relative Weighting Score | Functionality | Category |
+| --- | --- | --- | --- |
+|  |  |  |  |
+|  |  |  |  |
 (a second, shortened table of just the musts and some shoulds)
 
 ### Validation
