@@ -85,30 +85,62 @@ Consider using GitHub Actions (or other) to establish a continuous integration p
 
 ## Weekly progress reports
 
-Copy and paste from Moodle or use the following structure. Delete this instruction text.
-
-What I did in the last week:
-
-- item
-- item
-
-What I plan to do in the next week:
-
-- item
-- item
-
-Issues blocking my progress (state ‘None’ if there are no issues):
-
-- item
-- item
-
 ### Report 1
+
+*What I did in the last week:*
+
+I assessed the requirements for my app by breaking down users needs through writing user stories and categorising these into app features. I then specified these using the MoSCoW prioritisation technique
+
+*What I plan to do in the next week:*
+
+I'll visualise these requirements by designing wireframes for my app. I'll also go deeper into breaking down how I'll achieve each of these requirements using application architecture (and possibly UML)
+
+*Issues blocking my progress:*
+
+None
 
 ### Report 2
 
+*What I did in the last week:*
+
+I explored some commonly-used design patterns for Flask (e.g. MVC and Facade) and designed wireframes for my app.
+
+*What I plan to do in the next week:*
+
+Next week I plan to further flesh out my work on the design for this web-app and explore aspects of database design.
+
+*Issues blocking my progress:*
+
+I've had to leave the country at short notice for familial reasons - as such, preparations for the trip and the long flight have meant that I've had less time than I'd have liked to make progress in the project. This won't be a problem in future sprints, as I plan to be back at the start of the week.
+
 ### Report 3
 
+*What I did in the last week:*
+
+Learnt about code quality standards and applied this learning to my work
+
+*What I plan to do in the next week:*
+
+I plan to run some unit tests on my code
+
+*Issues blocking my progress:*
+
+Time spent abroad did impede my work slightly at the start of the week, but things are picking up
+
 ### Report 4
+
+*What I did in the last week:*
+
+Unfortunately, I haven't been able to make any progress on the coursework project this week
+
+*What I plan to do in the next week:*
+
+Next week, I plan to practice running unit tests using the pytest tool and wrap up the coursework 
+
+*Issues blocking my progress:*
+
+I have been unwell for the past week, which has made it quite difficult to work. I can't predict when this will cease to be a problem, but hopefully, it will be soon.
+
 
 ## References
 
