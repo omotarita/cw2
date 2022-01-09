@@ -62,6 +62,8 @@ I validated my set of requirements against the following criteria:
 4. Realism - can they realistically be implemented in the technology, budget and time?
 5. Verifiability - can they be tested?
 
+Given the validation criteria and their relative weighting scores, I decided to implement all the requirements except ... and ...
+ltimately I decided to implement the majority of the listed requirements, aside from the bottom two as they seemed more ... (?? did I?)
 
 ## Design
 
@@ -73,7 +75,7 @@ Notes and thoughts
 
 The user’s actions and thoughts underpin all aspects of the design of an application, therefore in the effort to build effective, intuitive software, it seemed apt to start by deeply exploring the user’s potential interactions with the system.
 
-*Use Case Diagram*
+![Use Case Diagram](use_case_diagram.png)
 
 #### MVC (Model-View-Controller)
 
@@ -112,6 +114,7 @@ Provide evidence that the tests have been run and the results of the tests (e.g.
 ### Continuous integration (optional)
 Consider using GitHub Actions (or other) to establish a continuous integration pipeline. If you do so then please provide a link to the .yml and a screenshot of the results of a workflow run.
 
+
 ## Weekly progress reports
 
 ### Report 1
@@ -128,6 +131,7 @@ I'll visualise these requirements by designing wireframes for my app. I'll also 
 
 None
 
+
 ### Report 2
 
 **What I did in the last week:**
@@ -142,6 +146,7 @@ Next week I plan to further flesh out my work on the design for this web-app and
 
 I've had to leave the country at short notice for familial reasons - as such, preparations for the trip and the long flight have meant that I've had less time than I'd have liked to make progress in the project. This won't be a problem in future sprints, as I plan to be back at the start of the week.
 
+
 ### Report 3
 
 **What I did in the last week:**
@@ -155,6 +160,7 @@ I plan to run some unit tests on my code
 **Issues blocking my progress:**
 
 Time spent abroad did impede my work slightly at the start of the week, but things are picking up
+
 
 ### Report 4
 
@@ -182,3 +188,4 @@ Delete this instruction text before submitting:
 
 https://www.simplilearn.com/agile-prioritization-techniques-article
 https://www.mountaingoatsoftware.com/blog/non-functional-requirements-as-user-stories
+https://www.youtube.com/watch?v=zid-MVo7M-E
