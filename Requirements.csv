@@ -1,16 +1,36 @@
-﻿Requirement,Requirement (User Story),Relative Weighting Score,Score Breakdown,Functionality,Acceptance Criteria
-2. Accurate results,As a movie-watcher I want the app to provide accurate results so that I’m not disappointed after watching the movies recommended,5.67,(8+9)/(2+1),Functional,"- Accurate categorisation of films by genre, popularity ..."
-5. Users with accounts can save preferences,As a movie-watcher I want to be able to save my preferences on the app so that I can reuse/reference them in the future,5.33,(8+8)/(2+1),Functional,
-1. Quick results,As a movie-watcher I want the app to provide quick results so that I can start movie-watching as soon as possible,4,(9+7)/(3+1),Functional,
-13. Runs data_preparation.py and data_exploration.py at the start of each week,"As the CTO I want the app to rerun the data preparation and exploration script on a weekly basis so that we reduce the computational power it would cost to rerun the scripts more frequently, but are also able to ensure our movie list is kept sufficiently up to date",4,(5+3)/(1+1),Non-functional,
-6. Users with accounts can indicate what movies they’ve watched already,As a movie-watcher I want to be able to indicate what movies I’ve watched already so that I don’t choose them again,4,(7+5)/(2+1),Functional,
-8. Compatible with a vast range of web browsers,"As a movie-watcher I want to be able to use this app on any web browser so that I can access it from any device ",3,(9+9)/(4+2),Non-functional,
-9. Constantly updating movie list dataset so as to include the latest releases,"As a movie-watcher I want the app to feature the latest movie releases so that I can stay up to date whilst watching movies that suit my preferences ",2.8,(8+6)/(3+2),Non-functional,
-4. Login/Create Account functionality,As a movie-watcher I want to be able to create an account on the app so that I can access data from my previous use of the app,2.33,(7+7)/(5+1),Functional,
-10. Filter by streaming platform option,As a movie-watcher I want to be able filter results by streaming platform so that I pick a movie that’s available on my streaming platform of choice,2.2,(6+5)/(4+1),Functional,
-12. Results should load within 6 seconds when the number of simultaneous users on the app is under 1000,As the CTO I want the results load time to be as short as possible so that users don’t give up waiting and leave the app,2.17,(7+6)/(4+2),Non-functional,
-3. Movie results should feature hypertext linking to sites at which the movie is accessible,As a movie-watcher I want to be able to navigate directly from the app to sites where the movies I choose to watch is accessible so that I don’t waste time trying to find it after making a choice,2,(6+4)/(4+1),Functional,
-7.  Linked to streaming platform rating system to adapt user’s recommendations accordingly,As the CTO I want to integrate users’ movie ratings from streaming platforms so that our recommendations system is as accurate as possible,1.5,(7+5)/(5+3),Non-functional,
-11. Users with accounts can “blend” their profiles to see where their recommendations overlap (similar to the Spotify “blend” feature),As a movie-watcher I want to be able to blend my profile with my friends when they come over so that we are recommended movies that suit both of our preferences,0.36,(3+1)/(5+6),Functional,
-14.,,,,,
-15.,,,,,
+﻿Requirement (User Story),Relative Weighting Score,Score Breakdown ((Benefit+Penalty)/(Cost+Risk)),Functionality,Acceptance Criteria
+As a movie-watcher I want the app to provide accurate results so that I’m not disappointed after watching the movies recommended,5.67,(8+9)/(2+1),Functional,"- Accurate categorisation of films in movie dataset by genre, popularity
+- Clearly display ‘suggest a movie’ prompt on homepage, which is illuminated and made interactive once users have selected at least one preference
+- When users press ‘suggest a movie’, their preferences are compared with the categories of films in our dataset and films which match are displayed in their results
+"
+As a movie-watcher I want to be able to save my preferences on the app so that I can reuse/reference them in the future,5.33,(8+8)/(2+1),Functional,"- Clearly displayed ‘save’ button next to movie listings
+- Clearly displayed ‘saved’ button on a user’s profile page"
+"As the CTO I want the app to rerun the data preparation and exploration script on a weekly basis so that we reduce the computational power it would cost to rerun the scripts more frequently, but are also able to ensure our movie list is kept sufficiently up to date",4,(5+3)/(1+1),Non-functional,- Run data_preparation.py and data_exploration.py at the start of each week
+As a movie-watcher I want to be able to indicate what movies I’ve watched already so that I don’t choose them again,4,(7+5)/(2+1),Functional,"- Clearly displayed ‘watched’ button next to movie listings which can be selected and deselected
+- ‘Did you watch {movie name}?’ prompt pushed to users’ notifications an hour after they’re shown their results"
+As a movie-watcher I want the app to provide quick results so that I can start movie-watching as soon as possible,4,(9+7)/(3+1),Functional,"- Process the upper quartile of users results within 10 seconds of their pressing ‘suggest a movie
+- Display a progress gauge (e.g. progress bar or percentage) for user’s to be able to anticipate when they’ll get results"
+"As a movie-watcher I want to be able to use this app on any web browser so that I can access it from any device ",3,(9+9)/(4+2),Non-functional,"- Compatible with Internet Explorer, Google Chrome, Microsoft Edge, Mozilla Firefox, Safari, QQ, Opera, Baidu and UC Browser."
+"As a movie-watcher I want the app to feature the latest movie releases so that I can stay up to date whilst watching movies that suit my preferences ",2.8,(8+6)/(3+2),Non-functional,"- Display new movie listings in the movie list dataset
+- Rerun the data_preparation and data_exploration scripts regularly to parse for new movie listings"
+As a movie-watcher I want to be able to create an account on the app so that I can access data from my previous use of the app,2.33,(7+7)/(5+1),Functional,"- New users are successfully registered on the platform when they sign up on the sign up page, using a unique username and a password
+- Registered users can access the data associated with their account when they enter their unique username and password on the login page
+- An error message reading “Incorrect password” is displayed when a user attempts to login using a registered username and an incorrect password
+- An error message reading “There is no account with this username .. yet. Sign up instead?” is displayed when a user attempts to login using a username that isn’t registered, regardless of the password entered"
+As a movie-watcher I want to be able filter results by streaming platform so that I pick a movie that’s available on my streaming platform of choice,2.2,(6+5)/(4+1),Functional,"- Display a filter button which, upon hovering, shows a list of selectable different streaming platforms
+- Netflix, Amazon Prime Video, Disney Plus, HBO Max, Hulu, Sling TV and BBC iPlayer should be listed among these filter options
+- Upon selecting any of these streaming platforms, movies unavailable on the selected platform/s should be removed from display in users’ results"
+As the CTO I want the results load time to be as short as possible so that users don’t give up waiting and leave the app,2.17,(7+6)/(4+2),Non-functional,"- Process all users results within 7 seconds of their pressing ‘suggest a movie when the number of simultaneous users on the app is less than 1000
+- Display a progress gauge (e.g. progress bar or percentage) for user’s to be able to anticipate when they’ll get results"
+As a movie-watcher I want to be able to navigate directly from the app to sites where the movies I choose to watch is accessible so that I don’t waste time trying to find it after making a choice,2,(6+4)/(4+1),Functional,"- When a movie is selected from the results provided to a user, they should be navigated to the movie’s unique page
+- On the movie’s page, there should be icons displayed that correspond to the streaming platform/s on which the movie is available
+- Each of the streaming platform icons displayed should be hyperlinked to the movie’s unique viewing page on said streaming platform; as such, these icons should act as buttons linking to the movie on each respective streaming platform"
+As the CTO I want to integrate users’ movie ratings from streaming platforms so that our recommendations system is as accurate as possible,1.5,(7+5)/(5+3),Non-functional,"- Display “connect {streaming platform name} account?” prompt on users’ profiles
+- Upon connecting their account for a given streaming profile, their rating data from the streaming profile is read and written to their data on this platform
+- Subsequently, when users press ‘suggest a movie’, their rating data is processed alongside all other data on their preferences, in order to inform their results"
+As a movie-watcher I want to be able to blend my profile with my friends when they come over so that we are recommended movies that suit both of our preferences,0.36,(3+1)/(5+6),Functional,"- Display a ‘blend?’ prompt on the home page
+- Upon clicking ‘blend’, users can search for and select other users’ profiles using their username
+- Users can click ‘blend’ when they are done selecting users to blend with
+- Selections are confirmed by the active user entering a composite OTP, which is made up of unique characters and character positions sent to each of the selected users (to prevent blending with strangers)
+- Blends are then displayed to the active user
+- Blends are automatically saved to all selected users’ ‘saved’ section in their profiles"
