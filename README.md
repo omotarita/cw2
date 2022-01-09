@@ -66,12 +66,41 @@ Link to the full list of documented and prioritised requirements.
 
 
 ## Design
-### Structure and flow of the interface
+
+### The Application Design
+
+Notes and thoughts
+
+#### Embodying The User
+
+The user’s actions and thoughts underpin all aspects of the design of an application, therefore in the effort to build effective, intuitive software, it seemed apt to start by deeply exploring the user’s potential interactions with the system.
+
+*Use Case Diagram*
+
+#### MVC (Model-View-Controller)
+
+As implied in the initial repository for this project, although this web-app has the potential for useful applications across all manner of movie streaming platforms, for this initial minimum viable product (MVP) version of the app, we will be focusing on streamlining it for use with Netflix specifically. However, as the goal remains for the app to be compatible with a wide variety of streaming platforms, scalability and flexibility of this software is imperative. The use of design patterns in its development will help support this, and they ensure ease of maintainability of code. 
+
+For this project, the Model-View-Controller (MVC) pattern has been employed. 
+
+##### View: Wireframes
+
+The “view” aspect of the MVC pattern represents the structure and appearance of the user interface (UI). Here, this will be depicted using wireframing, as this method permits both a low-fidelity visualisation of the user interface and an understanding of the flow of web pages (i.e. how users navigate through the app/what happens when they click what) which supports the development of the information structures (such as classes, entities and data) underlying the UI.
+
+... (thoughts, discoveries, decisions and adaptations)
+
+*Wireframes*
+
+##### Model: Class Diagram
+
+... (thoughts, discoveries, decisions and adaptations)
+
+*Class Diagram*
 
 ### Relational database design
 
-### Application structure
 
+### Application structure
 
 ## Testing
 ### Choice of unit testing library
@@ -152,3 +181,6 @@ Delete this instruction text before submitting:
 - If you justify any of your choices with references then remember to also include these.
 - Use any [referencing style](https://library-guides.ucl.ac.uk/referencing-plagiarism/referencing-styles) that you are
   used to using in your course.
+
+https://www.simplilearn.com/agile-prioritization-techniques-article
+https://www.mountaingoatsoftware.com/blog/non-functional-requirements-as-user-stories
