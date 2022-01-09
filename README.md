@@ -30,9 +30,9 @@ After identifying a number of requirements, I formalised each of these into user
 
 In specifying my requirements into user stories, I was also able to identify three individual user types for this web-app. Each of these user-types has a unique end-goal for their use of this web-app, described by their type title:
 
-1. Binge-watcher (these users have a need for speed and are driven by a desire to find and watch movies that moderately match their preferences as soon as possible)
-2. Host (these users want to find and watch movies that suit a group of people's combined preferences)
-3. Aficionado (these users are more particular about the movies they watch and are willing to spend more time deciding, as long as what they eventually choose to watch closely matches their preferences)
+1. **Binge-watcher** (these users have a need for speed and are driven by a desire to find and watch movies that moderately match their preferences as soon as possible)
+2. **Host** (these users want to find and watch movies that suit a group of people's combined preferences)
+3. **Aficionado** (these users are more particular about the movies they watch and are willing to spend more time deciding, as long as what they eventually choose to watch closely matches their preferences)
 
  Individuating users by type as opposed to conflating them all together helped inform my understanding of my users' potential desires and interactions; as such, I was able to come up with a few more requirements.
 
