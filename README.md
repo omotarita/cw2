@@ -69,7 +69,7 @@ ltimately I decided to implement the majority of the listed requirements, aside 
 
 ### The Application Design
 
-Notes and thoughts
+&&&// Notes and thoughts //&&&
 
 #### Embodying The User
 
