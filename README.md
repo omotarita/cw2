@@ -99,7 +99,7 @@ The “view” aspect of the MVC pattern represents the structure and appearance
 According to a 2017 survey, 42% of people prefer to use their laptop or desktop to watch TV shows, compared to 13% for smartphone fans and 23% television traditionalists. Although the statistics would likely be quite different for movies, due to widespread appreciation for enjoying cinema on the "big screen", the results of the 2017 survey imply that people are substantially more likely to watch movies on their laptop/desktop than their phones. For this reason,  I decided to optimise the app for desktop use, as it seemed that it would be the most likely Internet-connected device of choice for movie-watchers. 
 
 ![Flow Diagram](Application_Design/flow_diagram_wireframe.png)
-##### Wireframes*
+##### Wireframes
 
 <details>
   <summary>Wireframes</summary>
@@ -154,7 +154,7 @@ According to a 2017 survey, 42% of people prefer to use their laptop or desktop 
 | '/users/settings/<*username*>' | Settings page (09) | **display_settings(username)** |
 | '/users/saved/<*username*>' | Saved Preferences (10) | **display_saved(username)** |
 
-
+![Complete MVC Diagram](Application_Design/MVC_diagram.png)
 
 ### Relational database design
 
