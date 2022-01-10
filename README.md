@@ -101,7 +101,7 @@ According to a 2017 survey, 42% of people prefer to use their laptop or desktop 
 *Wireframes*
 
 <details>
-  <summary>Wireframes</summary><details>
+  <summary>Wireframes</summary>
   <img src="Wireframes/Homepage_NSI_wireframe.png" name="Homepage (Not Signed In)">
   <img src="Wireframes/Homepage_SI_wireframe.png" name="Homepage (Signed In)">
   <img src="Wireframes/Choose_For_Me_wireframe.png" name="Choose For Me">
