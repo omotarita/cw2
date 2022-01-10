@@ -144,15 +144,15 @@ According to a 2017 survey, 42% of people prefer to use their laptop or desktop 
 | Route | View Description ([Refer to Wireframes for Views](#wireframes)) | Controller Function |
 | --- | --- | --- |
 | '/' | Index/Homepage (01) | **index()** |
-| '/users/<username>' | Profile for a given user | **display_profile(username)** |
-| '/users/<signup>' | Create Account page (07) | **create_account()** |
-| '/users/<login>' | Login page (08) | **login()** |
-| '/movie/choose/<sessionID>' | Choose For Me (02) | **choose_for_me()** |
-| '/movie/<movieID>' | Movie Listing page (04) | **display_movie_listing(movieID)** |
-| '/movie/results/<sessionID>' | Results page (03) | **display_results(sessionID)** |
-| '/users/blend/<blendID>' | Blend page (05) | **blend(blendID)** |
-| '/users/settings/<username>' | Settings page (09) | **display_settings(username)** |
-| '/users/saved/<username>' | Saved Preferences (10) | **display_saved(username)** |
+| '/users/<*username*>' | Profile for a given user | **display_profile(username)** |
+| '/users/signup' | Create Account page (07) | **create_account()** |
+| '/users/login' | Login page (08) | **login()** |
+| '/movie/choose/"<*sessionID*>"' | Choose For Me (02) | **choose_for_me()** |
+| '/movie/<*movieID*>' | Movie Listing page (04) | **display_movie_listing(movieID)** |
+| '/movie/results/<*sessionID*>' | Results page (03) | **display_results(sessionID)** |
+| '/users/blend/<*blendID*>' | Blend page (05) | **blend(blendID)** |
+| '/users/settings/<*username*>' | Settings page (09) | **display_settings(username)** |
+| '/users/saved/<*username*>' | Saved Preferences (10) | **display_saved(username)** |
 
 
 
