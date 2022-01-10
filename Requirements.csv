@@ -1,37 +1,39 @@
 Requirement (User Story),User Type,Relative Weighting Score,Score Breakdown ((Benefit+Penalty)/(Cost+Risk)),Functionality,Acceptance Criteria
-As an aficionado I want the app to provide accurate results so that I’m not disappointed after watching the movies recommended,Aficionado,5.67,(8+9)/(2+1),Functional,"- Accurate categorisation of films in movie dataset by genre, popularity"
-,,,,,"- Clearly display ‘suggest a movie’ prompt on homepage, which is illuminated and made interactive once users have selected at least one preference"
-,,,,,"- When users press ‘suggest a movie’, their preferences are compared with the categories of films in our dataset and films which match are displayed in their results"
-As an aficionado I want to be able to save my preferences on the app so that I can reuse/reference them in the future,Aficionado,5.33,(8+8)/(2+1),Functional,"- After users press 'suggest a movie' and are navigated to the page displaying their movie results, there should be a 'save preferences' button clearly displayed above the results"
-,,,,,"- After pressing 'save preferences' a pop-up will appear, prompting users to choose a name for this set of preferences. Once confirmed the pop-up disappears, returning users to their results page "
-,,,,,"- There should be a clearly displayed 'saved' section in user's profiles, where users can see, edit and delete all their saved preferences"
-,,,,,"- On subsequent uses of the app, a 'choose from saved preferences' button will appear with the 'suggest a movie' prompt. Upon clicking this button, users will be able to select one of their saved set of preferences such that a movie can be suggested based on them"
+As an aficionado I want the app to provide accurate results so that I’m not disappointed after watching the movies recommended,Aficionado,5.67,(8+9)/(2+1),Functional,"- Accurate categorisation of films in movie dataset by genre, popularity and runtime"
+,,,,,"- Clearly display ‘Find Matching Movies’ prompt on homepage, which is illuminated and made interactive once users have selected at least one preference"
+,,,,,"- When users press 'Find Matching Movies’, their preferences are compared with the categories of films in our dataset and films which match are displayed in their results"
+As an aficionado I want to be able to save my preferences on the app so that I can reuse/reference them in the future,Aficionado,5.33,(8+8)/(2+1),Functional,"- After users press 'Find Matching Movies' and are navigated to the page displaying their movie results, there should be a 'save preferences' button clearly displayed above the results"
+,,,,,"- After pressing 'Save Preferences' a pop-up will appear, prompting users to choose a name for this set of preferences. Once confirmed the pop-up disappears, returning users to their results page "
+,,,,,"- There should be a clearly displayed 'Saved' section in user's profiles, where users can see, edit and delete all their saved preferences"
+,,,,,"- On subsequent uses of the app, a 'Choose From Saved Preferences' button will appear with the 'Find Matching Movies' prompt. Upon clicking this button, users will be able to select one of their saved set of preferences such that a movie can be suggested based on them"
 "As the CTO I want the app to rerun the data preparation and exploration script on a weekly basis so that we reduce the computational power it would cost to rerun the scripts more frequently, but are also able to ensure our movie list is kept sufficiently up to date",Non-user,4,(5+3)/(1+1),Non-functional,- Run data_preparation.py and data_exploration.py at the start of each week
-As a binge-watcher I want to be able to indicate what movies I’ve watched already so that I don’t choose them again,Binge watcher,4,(7+5)/(2+1),Functional,- Clearly displayed ‘watched’ button next to movie listings which can be selected and deselected
+As a binge-watcher I want to be able to indicate what movies I’ve watched already so that I don’t choose them again,Binge watcher,4,(7+5)/(2+1),Functional,- Clearly displayed ‘Watched’ button next to movie listings which can be selected and deselected
 ,,,,,- ‘Did you watch {movie name}?’ prompt pushed to users’ notifications an hour after they’re shown their results
-As a binge-watcher I want the app to provide quick results so that I can start movie-watching as soon as possible,Binge watcher,4,(9+7)/(3+1),Functional,- Process the upper quartile of users results within 10 seconds of their pressing ‘suggest a movie
+As a binge-watcher I want the app to provide quick results so that I can start movie-watching as soon as possible,Binge watcher,4,(9+7)/(3+1),Functional,- Process the upper quartile of users results within 10 seconds of their pressing ‘Find Matching Movies
 ,,,,,- Display a progress gauge (e.g. progress bar or percentage) for user’s to be able to anticipate when they’ll get results
-"As a binge-watcher I want to be able to use this app on any web browser so that I can access it whenever I want, from any device ",Binge watcher,3,(9+9)/(4+2),Non-functional,"- Compatible with Internet Explorer, Google Chrome, Microsoft Edge, Mozilla Firefox, Safari, QQ, Opera, Baidu and UC Browser."
+As a movie-night host I want to be able to blend my profile with my friends when they come over so that we are recommended movies that suit all of our preferences,Host,3.67,(7+4)/(2+1),Functional,- Display a ‘Blend?’ prompt on the home page
+,,,,,"- Upon clicking ‘Blend’, users can search for and select other users’ profiles using their username"
+,,,,,- Users can click ‘Blend’ when they are done selecting users to blend with
+,,,,,"- Selections are confirmed by the active user entering a composite OTP, which is made up of unique characters and character positions sent to each of the selected users (to prevent blending with strangers)"
+,,,,,- Blends are then displayed to the active user
+,,,,,- Blends are automatically saved to all selected users’ ‘Saved’ section in their profiles
 As an aficionado I want the app to feature the latest movie releases so that I can stay up to date whilst watching movies that suit my preferences ,Aficionado,2.8,(8+6)/(3+2),Non-functional,- Display new movie listings in the movie list dataset
 ,,,,,- Rerun the data_preparation and data_exploration scripts regularly to parse for new movie listings
 As an aficionado I want to be able to create an account on the app so that I can access data from my previous use of the app,Aficionado,2.33,(7+7)/(5+1),Functional,"- New users are successfully registered on the platform when they sign up on the sign up page, using a unique username and a password"
 ,,,,,- Registered users can access the data associated with their account when they enter their unique username and password on the login page
 ,,,,,- An error message reading “Incorrect password” is displayed when a user attempts to login using a registered username and an incorrect password
 ,,,,,"- An error message reading “There is no account with this username .. yet. Sign up instead?” is displayed when a user attempts to login using a username that isn’t registered, regardless of the password entered"
+As a host I want to be shown random suggestions for entertaining movies so that we can still enjoy a good movie even if my movie night guests can't decide on genre preferences,,2.25,(6+3)/(2+2),Functional,- Display 'Choose for Me' button alongside the 'Find Matching Movies' prompt
+,,,,,"- Upon pressing this button, users will be navigated to a data visualisation of the entertainment value of a set of randomly selected popular movies"
+,,,,,"- Upon selecting any of these movies, the user will be navigated to the movie's unique page"
 As a binge-watcher I want to be able filter results by streaming platform so that I pick a movie that’s available on my streaming platform of choice,Binge watcher,2.2,(6+5)/(4+1),Functional,"- Display a filter button which, upon hovering, shows a list of selectable different streaming platforms"
 ,,,,,"- Netflix, Amazon Prime Video, Disney Plus, HBO Max, Hulu, Sling TV and BBC iPlayer should be listed among these filter options"
 ,,,,,"- Upon selecting any of these streaming platforms, movies unavailable on the selected platform/s should be removed from display in users’ results"
-As the CTO I want the results load time to be as short as possible so that users don’t give up waiting and leave the app,Non-user,2.17,(7+6)/(4+2),Non-functional,- Process all users results within 7 seconds of their pressing ‘suggest a movie' when the number of simultaneous users on the app is less than 1000
+As the CTO I want the results load time to be as short as possible so that users don’t give up waiting and leave the app,Non-user,2.17,(7+6)/(4+2),Non-functional,- Process all users results within 7 seconds of their pressing ‘Find Matching Movies' when the number of simultaneous users on the app is less than 1000
 ,,,,,- Display a progress gauge (e.g. progress bar or percentage) for user’s to be able to anticipate when they’ll get results
 As a binge-watcher I want to be able to navigate directly from the app to sites where the movies I choose to watch is accessible so that I don’t waste time trying to find it after making a choice,Binge watcher,2,(6+4)/(4+1),Functional,"- When a movie is selected from the results provided to a user, they should be navigated to the movie’s unique page"
 ,,,,,"- On the movie’s page, there should be icons displayed that correspond to the streaming platform/s on which the movie is available"
 ,,,,,"- Each of the streaming platform icons displayed should be hyperlinked to the movie’s unique viewing page on said streaming platform; as such, these icons should act as buttons linking to the movie on each respective streaming platform"
-As the CTO I want to integrate users’ movie ratings from streaming platforms so that our recommendations system is as accurate as possible,Non-user,1.5,(7+5)/(5+3),Non-functional,- Display “connect {streaming platform name} account?” prompt on users’ profiles
+As the CTO I want to integrate users’ movie ratings from streaming platforms so that our recommendations system is as accurate as possible,Non-user,1.5,(7+5)/(5+3),Non-functional,- Display “Connect {streaming platform name} Account?” prompt on users’ profiles
 ,,,,,"- Upon connecting their account for a given streaming profile, their rating data from the streaming profile is read and written to their data on this platform"
-,,,,,"- Subsequently, when users press ‘suggest a movie’, their rating data is processed alongside all other data on their preferences, in order to inform their results"
-As a movie-night host I want to be able to blend my profile with my friends when they come over so that we are recommended movies that suit both of our preferences,Host,0.36,(3+1)/(5+6),Functional,- Display a ‘blend?’ prompt on the home page
-,,,,,"- Upon clicking ‘blend’, users can search for and select other users’ profiles using their username"
-,,,,,- Users can click ‘blend’ when they are done selecting users to blend with
-,,,,,"- Selections are confirmed by the active user entering a composite OTP, which is made up of unique characters and character positions sent to each of the selected users (to prevent blending with strangers)"
-,,,,,- Blends are then displayed to the active user
-,,,,,- Blends are automatically saved to all selected users’ ‘saved’ section in their profiles
+,,,,,"- Subsequently, when users press ‘Find Matching Movies’, their rating data is processed alongside all other data on their preferences, in order to inform their results"
