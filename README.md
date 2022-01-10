@@ -99,45 +99,62 @@ The “view” aspect of the MVC pattern represents the structure and appearance
 According to a 2017 survey, 42% of people prefer to use their laptop or desktop to watch TV shows, compared to 13% for smartphone fans and 23% television traditionalists. Although the statistics would likely be quite different for movies, due to widespread appreciation for enjoying cinema on the "big screen", the results of the 2017 survey imply that people are substantially more likely to watch movies on their laptop/desktop than their phones. For this reason,  I decided to optimise the app for desktop use, as it seemed that it would be the most likely Internet-connected device of choice for movie-watchers. 
 
 ![Flow Diagram](Application_Design/flow_diagram_wireframe.png)
-*Wireframes*
+##### Wireframes*
 
 <details>
   <summary>Wireframes</summary>
   
   ### Homepage (Not Signed In)
-  <img src="Application_Design/Homepage_NSI_wireframe.png" name="Homepage (Not Signed In)">
+  <img src="Application_Design/Homepage_NSI_wireframe.png" name="Homepage (Not Signed In) (01)">
 
   ### Homepage (Signed In)
-  <img src="Application_Design/Homepage_SI_wireframe.png" name="Homepage (Signed In)">
+  <img src="Application_Design/Homepage_SI_wireframe.png" name="Homepage (Signed In) (01*)">
 
   ### Choose For Me
-  <img src="Application_Design/Choose_For_Me_wireframe.png" name="Choose For Me">
+  <img src="Application_Design/Choose_For_Me_wireframe.png" name="Choose For Me (02)">
 
   ### Results
-  <img src="Application_Design/Results_wireframe.png" name="Results">
+  <img src="Application_Design/Results_wireframe.png" name="Results (03)">
 
   ### Movie Listing
-  <img src="Application_Design/Movie_Listing_wireframe.png" name="Movie Listing">
+  <img src="Application_Design/Movie_Listing_wireframe.png" name="Movie Listing (04)">
 
   ### Blend
-  <img src="Application_Design/Blend_wireframe.png" name="Blend">
+  <img src="Application_Design/Blend_wireframe.png" name="Blend (05)">
+
+  ### Blend OTP Confirmation
+  <img src="Application_Design/Blend_OTP_wireframe.png" name="Blend OTP (06)">
 
   ### Create Account
-  <img src="Application_Design/Create_Account_wireframe.png" name="Create Account">
+  <img src="Application_Design/Create_Account_wireframe.png" name="Create Account (07)">
 
   ### Sign In
-  <img src="Application_Design/Sign_In_wireframe.png" name="Sign In">
+  <img src="Application_Design/Sign_In_wireframe.png" name="Login (08)">
 
   ### Settings
-  <img src="Application_Design/Settings_wireframe.png" name="Settings">
+  <img src="Application_Design/Settings_wireframe.png" name="Settings (09)">
 
   ### Saved Preferences
-  <img src="Application_Design/Saved_Preferences_wireframe.png" name="Saved Preferences">
+  <img src="Application_Design/Saved_Preferences_wireframe.png" name="Saved Preferences (10)">
 </details>
 
 **Controllers (and Routes)**
 
 *Table*
+| Route | View Description ([Refer to Wireframes for Views](#wireframes)) | Controller Function |
+| --- | --- | --- |
+| '/' | Index/Homepage (01) | **index()** |
+| '/users/<username>' | Profile for a given user | **display_profile(username)** |
+| '/users/<signup>' | Create Account page (07) | **create_account()** |
+| '/users/<login>' | Login page (08) | **login()** |
+| '/movie/choose/<sessionID>' | Choose For Me (02) | **choose_for_me()** |
+| '/movie/<movieID>' | Movie Listing page (04) | **display_movie_listing(movieID)** |
+| '/movie/results/<sessionID>' | Results page (03) | **display_results(sessionID)** |
+| '/users/blend/<blendID>' | Blend page (05) | **blend(blendID)** |
+| '/users/settings/<username>' | Settings page (09) | **display_settings(username)** |
+| '/users/saved/<username>' | Saved Preferences (10) | **display_saved(username)** |
+
+
 
 ### Relational database design
 
