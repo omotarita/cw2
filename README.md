@@ -83,13 +83,14 @@ As implied in the initial repository for this project, although this web-app has
 
 For this project, the Model-View-Controller (MVC) pattern has been employed. 
 
-##### Model: Class Diagram
+**Model: Class Diagram**
 
 ... (thoughts, discoveries, decisions and adaptations)
 
+![Class Diagram](Application_Design/UML_class_diagram.png)
 *Class Diagram*
 
-##### View: Wireframes
+**View: Wireframes**
 
 The “view” aspect of the MVC pattern represents the structure and appearance of the user interface (UI). Here, this will be depicted using wireframing, as this method permits both a low-fidelity visualisation of the user interface and an understanding of the flow of web pages (i.e. how users navigate through the app/what happens when they click what) which supports the development of the information structures (such as classes, entities and data) underlying the UI.
 
@@ -97,44 +98,44 @@ The “view” aspect of the MVC pattern represents the structure and appearance
 
 According to a 2017 survey, 42% of people prefer to use their laptop or desktop to watch TV shows, compared to 13% for smartphone fans and 23% television traditionalists. Although the statistics would likely be quite different for movies, due to widespread appreciation for enjoying cinema on the "big screen", the results of the 2017 survey imply that people are substantially more likely to watch movies on their laptop/desktop than their phones. For this reason,  I decided to optimise the app for desktop use, as it seemed that it would be the most likely Internet-connected device of choice for movie-watchers. 
 
-![Flow Diagram](Wireframes/flow_diagram_wireframe.png)
+![Flow Diagram](Application_Design/flow_diagram_wireframe.png)
 *Wireframes*
 
 <details>
   <summary>Wireframes</summary>
   
   ### Homepage (Not Signed In)
-  <img src="Wireframes/Homepage_NSI_wireframe.png" name="Homepage (Not Signed In)">
+  <img src="Application_Design/Homepage_NSI_wireframe.png" name="Homepage (Not Signed In)">
 
   ### Homepage (Signed In)
-  <img src="Wireframes/Homepage_SI_wireframe.png" name="Homepage (Signed In)">
+  <img src="Application_Design/Homepage_SI_wireframe.png" name="Homepage (Signed In)">
 
   ### Choose For Me
-  <img src="Wireframes/Choose_For_Me_wireframe.png" name="Choose For Me">
+  <img src="Application_Design/Choose_For_Me_wireframe.png" name="Choose For Me">
 
   ### Results
-  <img src="Wireframes/Results_wireframe.png" name="Results">
+  <img src="Application_Design/Results_wireframe.png" name="Results">
 
   ### Movie Listing
-  <img src="Wireframes/Movie_Listing_wireframe.png" name="Movie Listing">
+  <img src="Application_Design/Movie_Listing_wireframe.png" name="Movie Listing">
 
   ### Blend
-  <img src="Wireframes/Blend_wireframe.png" name="Blend">
+  <img src="Application_Design/Blend_wireframe.png" name="Blend">
 
   ### Create Account
-  <img src="Wireframes/Create_Account_wireframe.png" name="Create Account">
+  <img src="Application_Design/Create_Account_wireframe.png" name="Create Account">
 
   ### Sign In
-  <img src="Wireframes/Sign_In_wireframe.png" name="Sign In">
+  <img src="Application_Design/Sign_In_wireframe.png" name="Sign In">
 
   ### Settings
-  <img src="Wireframes/Settings_wireframe.png" name="Settings">
+  <img src="Application_Design/Settings_wireframe.png" name="Settings">
 
   ### Saved Preferences
-  <img src="Wireframes/Saved_Preferences_wireframe.png" name="Saved Preferences">
+  <img src="Application_Design/Saved_Preferences_wireframe.png" name="Saved Preferences">
 </details>
 
-##### Controllers (and Routes)
+**Controllers (and Routes)**
 
 *Table*
 
