@@ -102,15 +102,35 @@ According to a 2017 survey, 42% of people prefer to use their laptop or desktop 
 
 <details>
   <summary>Wireframes</summary>
+  
+  ### Homepage (Not Signed In)
   <img src="Wireframes/Homepage_NSI_wireframe.png" name="Homepage (Not Signed In)">
+
+  ### Homepage (Signed In)
   <img src="Wireframes/Homepage_SI_wireframe.png" name="Homepage (Signed In)">
+
+  ### Choose For Me
   <img src="Wireframes/Choose_For_Me_wireframe.png" name="Choose For Me">
+
+  ### Results
   <img src="Wireframes/Results_wireframe.png" name="Results">
+
+  ### Movie Listing
   <img src="Wireframes/Movie_Listing_wireframe.png" name="Movie Listing">
+
+  ### Blend
   <img src="Wireframes/Blend_wireframe.png" name="Blend">
+
+  ### Create Account
   <img src="Wireframes/Create_Account_wireframe.png" name="Create Account">
+
+  ### Sign In
   <img src="Wireframes/Sign_In_wireframe.png" name="Sign In">
+
+  ### Settings
   <img src="Wireframes/Settings_wireframe.png" name="Settings">
+
+  ### Saved Preferences
   <img src="Wireframes/Saved_Preferences_wireframe.png" name="Saved Preferences">
 </details>
 
