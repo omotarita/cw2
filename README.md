@@ -83,6 +83,12 @@ As implied in the initial repository for this project, although this web-app has
 
 For this project, the Model-View-Controller (MVC) pattern has been employed. 
 
+##### Model: Class Diagram
+
+... (thoughts, discoveries, decisions and adaptations)
+
+*Class Diagram*
+
 ##### View: Wireframes
 
 The “view” aspect of the MVC pattern represents the structure and appearance of the user interface (UI). Here, this will be depicted using wireframing, as this method permits both a low-fidelity visualisation of the user interface and an understanding of the flow of web pages (i.e. how users navigate through the app/what happens when they click what) which supports the development of the information structures (such as classes, entities and data) underlying the UI.
@@ -91,13 +97,26 @@ The “view” aspect of the MVC pattern represents the structure and appearance
 
 According to a 2017 survey, 42% of people prefer to use their laptop or desktop to watch TV shows, compared to 13% for smartphone fans and 23% television traditionalists. Although the statistics would likely be quite different for movies, due to widespread appreciation for enjoying cinema on the "big screen", the results of the 2017 survey imply that people are substantially more likely to watch movies on their laptop/desktop than their phones. For this reason,  I decided to optimise the app for desktop use, as it seemed that it would be the most likely Internet-connected device of choice for movie-watchers. 
 
+![Flow Diagram](Wireframes/flow_diagram_wireframe.png)
 *Wireframes*
 
-##### Model: Class Diagram
+<details>
+  <summary>Wireframes</summary><details>
+  <img src="Wireframes/Homepage_NSI_wireframe.png" name="Homepage (Not Signed In)">
+  <img src="Wireframes/Homepage_SI_wireframe.png" name="Homepage (Signed In)">
+  <img src="Wireframes/Choose_For_Me_wireframe.png" name="Choose For Me">
+  <img src="Wireframes/Results_wireframe.png" name="Results">
+  <img src="Wireframes/Movie_Listing_wireframe.png" name="Movie Listing">
+  <img src="Wireframes/Blend_wireframe.png" name="Blend">
+  <img src="Wireframes/Create_Account_wireframe.png" name="Create Account">
+  <img src="Wireframes/Sign_In_wireframe.png" name="Sign In">
+  <img src="Wireframes/Settings_wireframe.png" name="Settings">
+  <img src="Wireframes/Saved_Preferences_wireframe.png" name="Saved Preferences">
+</details>
 
-... (thoughts, discoveries, decisions and adaptations)
+##### Controllers (and Routes)
 
-*Class Diagram*
+*Table*
 
 ### Relational database design
 
