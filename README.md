@@ -63,7 +63,7 @@ I validated my set of requirements against the following criteria:
 5. Verifiability - can they be tested?
 
 Given the validation criteria and their relative weighting scores, I decided to implement all the requirements except ... and ...
-ltimately I decided to implement the majority of the listed requirements, aside from the bottom two as they seemed more ... (?? did I?)
+ltimately I decided to implement the majority of the listed requirements, aside from last one as they seemed more ... (?? did I? - yes i did: i will not be implementing the requirement which connects accounts -- too hard, can't access data)
 
 ## Design
 
@@ -88,6 +88,8 @@ For this project, the Model-View-Controller (MVC) pattern has been employed.
 The “view” aspect of the MVC pattern represents the structure and appearance of the user interface (UI). Here, this will be depicted using wireframing, as this method permits both a low-fidelity visualisation of the user interface and an understanding of the flow of web pages (i.e. how users navigate through the app/what happens when they click what) which supports the development of the information structures (such as classes, entities and data) underlying the UI.
 
 ... (thoughts, discoveries, decisions and adaptations)
+
+According to a 2017 survey, 42% of people prefer to use their laptop or desktop to watch TV shows, compared to 13% for smartphone fans and 23% television traditionalists. Although the statistics would likely be quite different for movies, due to widespread appreciation for enjoying cinema on the "big screen", the results of the 2017 survey imply that people are substantially more likely to watch movies on their laptop/desktop than their phones. For this reason,  I decided to optimise the app for desktop use, as it seemed that it would be the most likely Internet-connected device of choice for movie-watchers. 
 
 *Wireframes*
 
