@@ -23,7 +23,7 @@ As an aficionado I want to be able to create an account on the app so that I can
 ,,,,,- Registered users can access the data associated with their account when they enter their unique username and password on the login page
 ,,,,,- An error message reading “Incorrect password” is displayed when a user attempts to login using a registered username and an incorrect password
 ,,,,,"- An error message reading “There is no account with this username .. yet. Sign up instead?” is displayed when a user attempts to login using a username that isn’t registered, regardless of the password entered"
-As a host I want to be shown random suggestions for entertaining movies so that we can still enjoy a good movie even if my movie night guests can't decide on genre preferences,,2.25,(6+3)/(2+2),Functional,- Display 'Choose for Me' button alongside the 'Find Matching Movies' prompt
+As a host I want to be shown random suggestions for entertaining movies so that we can still enjoy a good movie even if my movie night guests can't decide on genre preferences,Host,2.25,(6+3)/(2+2),Functional,- Display 'Choose for Me' button alongside the 'Find Matching Movies' prompt
 ,,,,,"- Upon pressing this button, users will be navigated to a data visualisation of the entertainment value of a set of randomly selected popular movies"
 ,,,,,"- Upon selecting any of these movies, the user will be navigated to the movie's unique page"
 As a binge-watcher I want to be able filter results by streaming platform so that I pick a movie that’s available on my streaming platform of choice,Binge watcher,2.2,(6+5)/(4+1),Functional,"- Display a filter button which, upon hovering, shows a list of selectable different streaming platforms"
