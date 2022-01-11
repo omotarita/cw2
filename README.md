@@ -55,7 +55,7 @@ I validated my set of requirements against the following criteria:
 4. Realism - can they realistically be implemented in the technology, budget and time?
 5. Verifiability - can they be tested?
 
-Given the validation criteria and their relative weighting scores, I decided to implement the majority of the listed requirements, aside from last one (relating to integrating the data from users' streaming platform accounts) as it seemed relatively unrealistic and unfeasible compared to the other requirements, due to its complexity. Furthermore, it received the lowest relative weighting score, which indicates that it doesn't reflect users genuine needs.
+Given the validation criteria and their relative weighting scores, I decided to implement the majority of the listed requirements, aside from last one (relating to integrating the data from users' streaming platform accounts) as it seemed relatively unrealistic and unfeasible compared to the other requirements, due to its complexity. Furthermore, it received the lowest relative weighting score, which indicates that it doesn't reflect users' genuine needs.
 
 
 ## Design
