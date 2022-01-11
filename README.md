@@ -200,8 +200,8 @@ Find my tests in the [test_user.py file](test/test_user.py) in the [test folder]
 ![Test Results](test/test_results.png)
 
 
-### Continuous integration (optional)
-Consider using GitHub Actions (or other) to establish a continuous integration pipeline. If you do so then please provide a link to the .yml and a screenshot of the results of a workflow run
+### Continuous integration
+I attempted to set up a continuous integration pipeline using CircleCI. Here's a link to my [yml file](.circleci/config.yml)
 
 ## Weekly progress reports
 
