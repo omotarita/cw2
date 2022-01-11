@@ -269,6 +269,8 @@ I have been unwell for the past week, which has made it quite difficult to work.
 
 Prioritzation Techniques Article. SimpliLearn. 2021 [Blog]. Available at [https://www.simplilearn.com/agile-prioritization-techniques-article](https://www.simplilearn.com/agile-prioritization-techniques-article)
  (Accessed on 17 November 2021)
-Non-Functional Requirements as User Stories. Mountain Goat Software. 2013 [Blog]. Available at [https://www.mountaingoatsoftware.com/blog/non-functional-requirements-as-user-stories](https://www.mountaingoatsoftware.com/blog/non-functional-requirements-as-user-stories)
+ 
+ Non-Functional Requirements as User Stories. Mountain Goat Software. 2013 [Blog]. Available at [https://www.mountaingoatsoftware.com/blog/non-functional-requirements-as-user-stories](https://www.mountaingoatsoftware.com/blog/non-functional-requirements-as-user-stories)
  (Accessed on 27 November 2021)
-Types of Constraints. IBM. 2014 [Blog]. Available at [https://www.ibm.com/docs/en/ias?topic=constraints-types](https://www.ibm.com/docs/en/ias?topic=constraints-types) (Accessed on 8 January 2022)
+ 
+ Types of Constraints. IBM. 2014 [Blog]. Available at [https://www.ibm.com/docs/en/ias?topic=constraints-types](https://www.ibm.com/docs/en/ias?topic=constraints-types) (Accessed on 8 January 2022)
