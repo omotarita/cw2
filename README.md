@@ -203,6 +203,11 @@ Find my tests in the [test_user.py file](test/test_user.py) in the [test folder]
 ### Continuous integration
 I attempted to set up a continuous integration pipeline using CircleCI. Here's a link to my [yml file](.circleci/config.yml)
 
+See here the results of a build attempt using CircleCI.
+![Build Image A](.circleci/build_6.png)
+![Build Image B](.circleci/build_6b.png)
+
+
 ## Weekly progress reports
 
 <details>
