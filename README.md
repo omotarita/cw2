@@ -1,5 +1,14 @@
 # Coursework 2
 
+## Technical Information
+
+### Repository URL
+[Coursework Repository](https://github.com/omotarita/cw2)
+
+### Set-Up Information
+All dependencies in requirements.txt should be installed in order to run the code in this repository. Use the command 'pip install ...' at Terminal to do so.
+
+
 ## **Requirements**
 
 Requirements engineering is an iterative process in software engineering in which the expected capabilities of a finished product are discovered (or elicited), made more specific, validated and possibly changed. It plays an integral role in the development of a product, as these requirements come to shape the product goals which engineers, product managers and designers refer back to throughout development to ensure the product, once built, meets stakeholders' expectations. 
