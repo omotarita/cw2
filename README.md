@@ -1,6 +1,6 @@
 # Coursework 2
 
-## **Requirements definition and analysis**
+## **Requirements**
 
 Requirements engineering is an iterative process in software engineering in which the expected capabilities of a finished product are discovered (or elicited), made more specific, validated and possibly changed. It plays an integral role in the development of a product, as these requirements come to shape the product goals which engineers, product managers and designers refer back to throughout development to ensure the product, once built, meets stakeholders' expectations. 
 
@@ -12,7 +12,7 @@ The innate complexity of software engineering projects is facilitated by the div
 
 The BABOK Guide (Business Analysis Body of Knowledge) provides a number of techniques that can be used to elicit requirements for software engineering projects. As a project is fundamentally underpinned by a need to serve users, they serve as the most useful source for discovering (or gathering) requirements.
 
-Although the requirements identification methods available for this project are limited to solely brainstorming, if this were a real-world project, I believe focus groups, user interviews and observation would also be useful methods to undertake. (why??)
+Although the requirements identification methods available for this project are limited to solely brainstorming, if this were a real-world project, I believe focus groups, user interviews and observation would also be useful methods to undertake, as they embody a user-centred design focus by provide a deeper insight into users' needs.
 
 To ensure I gathered a diverse range of requirements through brainstorming, I followed divergent design thinking principles to arrive at a number of ideas. Here's a few examples of some of the basic requirement ideas I came up with:
 
@@ -42,7 +42,7 @@ Although the MoSCoW method is more commonplace in Agile applications, I preferre
 
 ### **Documented and prioritised requirements**
 
-Find here the [full list of prioritised requirements](Requirements.csv)
+Find here the [full list of prioritised requirements](design_requirements.csv)
 
 
 ### Validation
@@ -56,6 +56,7 @@ I validated my set of requirements against the following criteria:
 5. Verifiability - can they be tested?
 
 Given the validation criteria and their relative weighting scores, I decided to implement the majority of the listed requirements, aside from last one (relating to integrating the data from users' streaming platform accounts) as it seemed relatively unrealistic and unfeasible compared to the other requirements, due to its complexity. Furthermore, it received the lowest relative weighting score, which indicates that it doesn't reflect users genuine needs.
+
 
 ## Design
 
@@ -77,19 +78,22 @@ For this project, the Model-View-Controller (MVC) pattern has been employed.
 
 **Model: Class Diagram**
 
+Using the use case diagram as a reference point, and following the Domain-Driven-Design (DDD) approach for further support, I developed the following class diagram to depict the app's classes and their interrelationships.
+
 ![Class Diagram](Application_Design/UML_class_diagram.png)
 
 **View: Wireframes**
 
-The “view” aspect of the MVC pattern represents the structure and appearance of the user interface (UI). Here, this will be depicted using wireframing, as this method permits both a low-fidelity visualisation of the user interface and an understanding of the flow of web pages (i.e. how users navigate through the app/what happens when they click what) which supports the development of the information structures (such as classes, entities and data) underlying the UI.
+The “view” aspect of the MVC pattern represents the structure and appearance of the user interface (UI). Here, this is depicted using wireframing, as this method permits both a low-fidelity visualisation of the user interface and an understanding of the flow of web pages (i.e. how users navigate through the app/what happens when they click something) which supports the development of the information structures (such as classes, entities and data) underlying the UI.
 
 According to a 2017 survey, 42% of people prefer to use their laptop or desktop to watch TV shows, compared to 13% for smartphone fans and 23% television traditionalists. Although the statistics would likely be quite different for movies, due to widespread appreciation for enjoying cinema on the "big screen", the results of the 2017 survey imply that people are substantially more likely to watch movies on their laptop/desktop than their phones. For this reason,  I decided to optimise the app for desktop use, as it seemed that it would be the most likely Internet-connected device of choice for movie-watchers. 
 
+Here is a flow diagram depicting the interactions between the app's webpages.
 ![Flow Diagram](Application_Design/flow_diagram_wireframe.png)
-##### Wireframes
+
 
 <details>
-  <summary>Wireframes</summary>
+  <summary>Expand this to view the wireframes illustrating the visual design for each of the app's webpages (as shown featured in the flow diagram)</summary>
   
   ### Homepage (Not Signed In) (01)
   <img src="Application_Design/Homepage_NSI_wireframe.png" name="Homepage (Not Signed In) (01)">
@@ -127,6 +131,10 @@ According to a 2017 survey, 42% of people prefer to use their laptop or desktop 
 
 **Controllers (and Routes)**
 
+In an MVC design pattern, the controllers represent the 'brain' of the app; upon receiving a webpage request (represented by the url **routes**), the controller effects the request by using the models to retrieve the data it needs to populate a webpage and the view that renders its visual representation.
+
+Find below a table describing the routes for this application and their corresponding views and controller functions.
+
 | Route | View Description ([Refer to Wireframes for Views](#wireframes)) | Controller Function |
 | --- | --- | --- |
 | '/' | Index/Homepage (01) | **index()** |
@@ -140,11 +148,14 @@ According to a 2017 survey, 42% of people prefer to use their laptop or desktop 
 | '/users/settings/<*username*>' | Settings page (09) | **display_settings(username)** |
 | '/users/saved/<*username*>' | Saved Preferences (10) | **display_saved(username)** |
 
+Here is the complete MVC diagram, further demonstrating how the **models**, **views** and **controllers** work in tandem.
 ![Complete MVC Diagram](Application_Design/MVC_diagram.png)
 
 ### Relational database design
 
-Find below an ERD representing the logical design stage of the relational database design of this application. 
+Relational databases contain the multitude of datapoints for every entity interacting with an application. For this application, the entities are the users, the movies, the users' movie choices and their 'blends'. The data for each and every one of the interactions carried out in an app is documented in its relational database; as such, these systems are highly complex and incredibly confusing. Relational database design helps manage this complexity. By representing the relationships between entities in a relational database, developers are able to understand and automate how different datapoints affect each other, reducing the potential for error when data points change. 
+
+Find below an Entity Relationship Diagram (ERD) representing the logical design stage of the relational database design of this application. 
 ![ER Diagram](Application_Design/ERD_diagram.png)
 
 <details>
@@ -256,14 +267,8 @@ I have been unwell for the past week, which has made it quite difficult to work.
 
 ## References
 
-Delete this instruction text before submitting:
-
-- Include references to any templates you have used.
-- If you justify any of your choices with references then remember to also include these.
-- Use any [referencing style](https://library-guides.ucl.ac.uk/referencing-plagiarism/referencing-styles) that you are
-  used to using in your course.
-
-https://www.simplilearn.com/agile-prioritization-techniques-article
-https://www.mountaingoatsoftware.com/blog/non-functional-requirements-as-user-stories
-https://www.youtube.com/watch?v=zid-MVo7M-E
-https://www.ibm.com/docs/en/ias?topic=constraints-types
+Prioritzation Techniques Article. SimpliLearn. 2021 [Blog]. Available at [https://www.simplilearn.com/agile-prioritization-techniques-article](https://www.simplilearn.com/agile-prioritization-techniques-article)
+ (Accessed on 17 November 2021)
+Non-Functional Requirements as User Stories. Mountain Goat Software. 2013 [Blog]. Available at [https://www.mountaingoatsoftware.com/blog/non-functional-requirements-as-user-stories](https://www.mountaingoatsoftware.com/blog/non-functional-requirements-as-user-stories)
+ (Accessed on 27 November 2021)
+Types of Constraints. IBM. 2014 [Blog]. Available at [https://www.ibm.com/docs/en/ias?topic=constraints-types](https://www.ibm.com/docs/en/ias?topic=constraints-types) (Accessed on 8 January 2022)
