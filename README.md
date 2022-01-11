@@ -104,37 +104,37 @@ According to a 2017 survey, 42% of people prefer to use their laptop or desktop 
 <details>
   <summary>Wireframes</summary>
   
-  ### Homepage (Not Signed In)
+  ### Homepage (Not Signed In) (01)
   <img src="Application_Design/Homepage_NSI_wireframe.png" name="Homepage (Not Signed In) (01)">
 
-  ### Homepage (Signed In)
+  ### Homepage (Signed In) (01*)
   <img src="Application_Design/Homepage_SI_wireframe.png" name="Homepage (Signed In) (01*)">
 
-  ### Choose For Me
+  ### Choose For Me (02)
   <img src="Application_Design/Choose_For_Me_wireframe.png" name="Choose For Me (02)">
 
-  ### Results
+  ### Results (03)
   <img src="Application_Design/Results_wireframe.png" name="Results (03)">
 
-  ### Movie Listing
+  ### Movie Listing (04)
   <img src="Application_Design/Movie_Listing_wireframe.png" name="Movie Listing (04)">
 
-  ### Blend
+  ### Blend (05)
   <img src="Application_Design/Blend_wireframe.png" name="Blend (05)">
 
-  ### Blend OTP Confirmation
+  ### Blend OTP Confirmation (06)
   <img src="Application_Design/Blend_OTP_wireframe.png" name="Blend OTP (06)">
 
-  ### Create Account
+  ### Create Account (07)
   <img src="Application_Design/Create_Account_wireframe.png" name="Create Account (07)">
 
-  ### Sign In
+  ### Sign In (08)
   <img src="Application_Design/Sign_In_wireframe.png" name="Login (08)">
 
-  ### Settings
+  ### Settings (09)
   <img src="Application_Design/Settings_wireframe.png" name="Settings (09)">
 
-  ### Saved Preferences
+  ### Saved Preferences (10)
   <img src="Application_Design/Saved_Preferences_wireframe.png" name="Saved Preferences (10)">
 </details>
 
@@ -158,8 +158,37 @@ According to a 2017 survey, 42% of people prefer to use their laptop or desktop 
 
 ### Relational database design
 
+... notes thoughts...
 
-### Application structure
+Find below an ERD representing the logical design stage of the relational database design of this application. 
+![ER Diagram](Application_Design/ERD_diagram.png)
+
+<details>
+  <summary>More detailed entities including constraints for each attribute</summary>
+
+  ### User Entity
+  <img src="Application_Design/user_entity.png" name="User Entity">
+
+  ### Movie Choice Entity
+  <img src="Application_Design/movie_choice_entity.png" name="Movie Choice Entity">
+
+  ### Movie Entity
+  <img src="Application_Design/movie_entity.png" name="Movie Entity">
+
+  ### Blend Entity
+  <img src="Application_Design/blend_entity.png" name="Blend Entity">
+
+  </details>
+
+
+<details>
+  <summary>Earlier conceptual database design</summary>
+
+  ### Initial Conceptual Database Design
+  <img src="Application_Design/Conceptual_ERD.png" name="Initial Conceptual Database Design">
+
+  </details>
+
 
 ## Testing
 ### Choice of unit testing library
