@@ -25,4 +25,3 @@ jobs:
           path: test-reports/
           destination: python_app
 
-          ""Code referenced from the Circle CI blog""
