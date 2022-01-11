@@ -1,8 +1,5 @@
 # Coursework 2
 
-Most students will use the same repository for coursework 2. You may use this file to present the results of that
-coursework if you wish. Alternatively you can use video or audio to provide the explanations instead of writing them.
-
 ## **Requirements definition and analysis**
 
 Requirements engineering is an iterative process in software engineering in which the expected capabilities of a finished product are discovered (or elicited), made more specific, validated and possibly changed. It plays an integral role in the development of a product, as these requirements come to shape the product goals which engineers, product managers and designers refer back to throughout development to ensure the product, once built, meets stakeholders' expectations. 
@@ -52,24 +49,19 @@ Find here the [full list of prioritised requirements](Requirements.csv)
 
 I validated my set of requirements against the following criteria:
 
-| Requirement | Validity (Y/N) | Consistency (Y/N) | Completeness (Y/N) | Realism (Y/N) | Verifiability (Y/N) |
-| --- | --- | --- | --- | --- | --- |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
 1. Validity - do they reflect the real, changing needs of the users?
 2. Consistency - is there duplication or any contradictory constraints?
 3. Completeness - do they include everything needed?
 4. Realism - can they realistically be implemented in the technology, budget and time?
 5. Verifiability - can they be tested?
 
-Given the validation criteria and their relative weighting scores, I decided to implement all the requirements except ... and ...
-ltimately I decided to implement the majority of the listed requirements, aside from last one as they seemed more ... (?? did I? - yes i did: i will not be implementing the requirement which connects accounts -- too hard, can't access data)
+Given the validation criteria and their relative weighting scores, I decided to implement the majority of the listed requirements, aside from last one (relating to integrating the data from users' streaming platform accounts) as it seemed relatively unrealistic and unfeasible compared to the other requirements, due to its complexity. Furthermore, it received the lowest relative weighting score, which indicates that it doesn't reflect users genuine needs.
 
 ## Design
 
 ### The Application Design
 
-&&&// Notes and thoughts //&&&
+The application design process of any software development project is an substantial activity involving aspects of aesthetic design, such as user interface design and wireframing, experiential design, such as user experience design, and application architecture, building roadmaps and diagrams representing a high-level view of the code underlying the app. For this project, I took a multifaceted approach to application design, considering each of these aspects to ensure all aspects of the app's intended functionality were explored and exemplified.
 
 #### Embodying The User
 
@@ -85,16 +77,11 @@ For this project, the Model-View-Controller (MVC) pattern has been employed.
 
 **Model: Class Diagram**
 
-... (thoughts, discoveries, decisions and adaptations)
-
 ![Class Diagram](Application_Design/UML_class_diagram.png)
-*Class Diagram*
 
 **View: Wireframes**
 
 The “view” aspect of the MVC pattern represents the structure and appearance of the user interface (UI). Here, this will be depicted using wireframing, as this method permits both a low-fidelity visualisation of the user interface and an understanding of the flow of web pages (i.e. how users navigate through the app/what happens when they click what) which supports the development of the information structures (such as classes, entities and data) underlying the UI.
-
-... (thoughts, discoveries, decisions and adaptations)
 
 According to a 2017 survey, 42% of people prefer to use their laptop or desktop to watch TV shows, compared to 13% for smartphone fans and 23% television traditionalists. Although the statistics would likely be quite different for movies, due to widespread appreciation for enjoying cinema on the "big screen", the results of the 2017 survey imply that people are substantially more likely to watch movies on their laptop/desktop than their phones. For this reason,  I decided to optimise the app for desktop use, as it seemed that it would be the most likely Internet-connected device of choice for movie-watchers. 
 
@@ -140,7 +127,6 @@ According to a 2017 survey, 42% of people prefer to use their laptop or desktop 
 
 **Controllers (and Routes)**
 
-*Table*
 | Route | View Description ([Refer to Wireframes for Views](#wireframes)) | Controller Function |
 | --- | --- | --- |
 | '/' | Index/Homepage (01) | **index()** |
@@ -157,8 +143,6 @@ According to a 2017 survey, 42% of people prefer to use their laptop or desktop 
 ![Complete MVC Diagram](Application_Design/MVC_diagram.png)
 
 ### Relational database design
-
-... notes thoughts...
 
 Find below an ERD representing the logical design stage of the relational database design of this application. 
 ![ER Diagram](Application_Design/ERD_diagram.png)
@@ -182,7 +166,7 @@ Find below an ERD representing the logical design stage of the relational databa
 
 
 <details>
-  <summary>Earlier conceptual database design</summary>
+  <summary>Find here an early stage design documenting the conceptual database design considerations for this project</summary>
 
   ### Initial Conceptual Database Design
   <img src="Application_Design/Conceptual_ERD.png" name="Initial Conceptual Database Design">
@@ -191,17 +175,22 @@ Find below an ERD representing the logical design stage of the relational databa
 
 
 ## Testing
+When building software with numerous entities, classes and methods the code often tends to become relatively complex, in spite of taking steps like code quality considerations, eliciting and clearly specifying requirements and carrying out careful application design processes to prevent this. Testing represents one of the final software 'finetuning' processes; at this stage, developers are focused on verifying that their software behaves as intended and on finding bugs.
+
 ### Choice of unit testing library
+To test the code in this project, I chose to use the pytest library over unittest, as the pytest format of constructing tests within Python functions allows for more compact code than unittest (which requires tests to be packaged within separate classes). Keeping my code as compact as possible is another complexity management precaution, which helps me maintain quality and accuracy in my code.
 
 ### Tests
-The tests should be in a separate and appropriately named file/directory.
+I began developing my tests by thoroughly considering the methods of the class I chose to investigate, [user.py](user.py). I then listed out a vast range of arguments, some more fussy than others, and then wrote out the corresponding return values for each of these. After this I began writing my tests, following the Arrange, Act and Assert (AAA) testing pattern to help me structure them. Instead of commenting "arrange", "act" and "assert" before each section of code, which is repetitive and somewhat redundant, I used the Given-When-Then formula to represent the logic behind each of my tests.
+
+Find my tests in the [test_user.py file](test/test_user.py) in the [test folder](test).
 
 ### Test results
-Provide evidence that the tests have been run and the results of the tests (e.g. screenshot).
+![Test Results](test/test_results.png)
+
 
 ### Continuous integration (optional)
-Consider using GitHub Actions (or other) to establish a continuous integration pipeline. If you do so then please provide a link to the .yml and a screenshot of the results of a workflow run.
-
+Consider using GitHub Actions (or other) to establish a continuous integration pipeline. If you do so then please provide a link to the .yml and a screenshot of the results of a workflow run
 
 ## Weekly progress reports
 
@@ -277,3 +266,4 @@ Delete this instruction text before submitting:
 https://www.simplilearn.com/agile-prioritization-techniques-article
 https://www.mountaingoatsoftware.com/blog/non-functional-requirements-as-user-stories
 https://www.youtube.com/watch?v=zid-MVo7M-E
+https://www.ibm.com/docs/en/ias?topic=constraints-types
