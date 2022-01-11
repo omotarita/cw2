@@ -74,7 +74,7 @@ The user’s actions and thoughts underpin all aspects of the design of an appli
 
 As implied in the initial repository for this project, although this web-app has the potential for useful applications across all manner of movie streaming platforms, for this initial minimum viable product (MVP) version of the app, we will be focusing on streamlining it for use with Netflix specifically. However, as the goal remains for the app to be compatible with a wide variety of streaming platforms, scalability and flexibility of this software is imperative. The use of design patterns in its development will help support this, and they ensure ease of maintainability of code. 
 
-For this project, the Model-View-Controller (MVC) pattern has been employed. 
+For this project, the Model-View-Controller (MVC) pattern has been employed as it is scalable and relatively simple to understand (which ensures team members joining the project late are able to easily pick up wherever it's left off).
 
 **Model: Class Diagram**
 
@@ -148,14 +148,14 @@ Find below a table describing the routes for this application and their correspo
 | '/users/settings/<*username*>' | Settings page (09) | **display_settings(username)** |
 | '/users/saved/<*username*>' | Saved Preferences (10) | **display_saved(username)** |
 
-Here is the complete MVC diagram, further demonstrating how the **models**, **views** and **controllers** work in tandem.
+Here is the complete MVC diagram, further demonstrating how the **models**, **views** and **controllers** work in tandem. I modelled the diagram in UML due to its widespread popularity which suggests the diagram should be understood by the vast majority of developers.
 ![Complete MVC Diagram](Application_Design/MVC_diagram.png)
 
 ### Relational database design
 
 Relational databases contain the multitude of datapoints for every entity interacting with an application. For this application, the entities are the users, the movies, the users' movie choices and their 'blends'. The data for each and every one of the interactions carried out in an app is documented in its relational database; as such, these systems are highly complex and incredibly confusing. Relational database design helps manage this complexity. By representing the relationships between entities in a relational database, developers are able to understand and automate how different datapoints affect each other, reducing the potential for error when data points change. 
 
-Find below an Entity Relationship Diagram (ERD) representing the logical design stage of the relational database design of this application. 
+For these reasons, I developed an Entity Relationship Diagram (ERD) to represent the logical design stage of the relational database design of this application. See below.
 ![ER Diagram](Application_Design/ERD_diagram.png)
 
 <details>
@@ -189,7 +189,7 @@ Find below an Entity Relationship Diagram (ERD) representing the logical design 
 When building software with numerous entities, classes and methods the code often tends to become relatively complex, in spite of taking steps like code quality considerations, eliciting and clearly specifying requirements and carrying out careful application design processes to prevent this. Testing represents one of the final software 'finetuning' processes; at this stage, developers are focused on verifying that their software behaves as intended and on finding bugs.
 
 ### Choice of unit testing library
-To test the code in this project, I chose to use the pytest library over unittest, as the pytest format of constructing tests within Python functions allows for more compact code than unittest (which requires tests to be packaged within separate classes). Keeping my code as compact as possible is another complexity management precaution, which helps me maintain quality and accuracy in my code.
+To test the code in this project, I chose to use the **pytest** library over unittest, as the pytest format of constructing tests within Python functions allows for more compact code than unittest (which requires tests to be packaged within separate classes). Keeping my code as compact as possible is another complexity management precaution, which helps me maintain quality and accuracy in my code.
 
 ### Tests
 I began developing my tests by thoroughly considering the methods of the class I chose to investigate, [user.py](user.py). I then listed out a vast range of arguments, some more fussy than others, and then wrote out the corresponding return values for each of these. After this I began writing my tests, following the Arrange, Act and Assert (AAA) testing pattern to help me structure them. Instead of commenting "arrange", "act" and "assert" before each section of code, which is repetitive and somewhat redundant, I used the Given-When-Then formula to represent the logic behind each of my tests.
