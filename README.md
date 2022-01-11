@@ -203,9 +203,13 @@ Find my tests in the [test_user.py file](test/test_user.py) in the [test folder]
 ### Continuous integration
 I attempted to set up a continuous integration pipeline using CircleCI. Here's a link to my [yml file](.circleci/config.yml)
 
-See here the results of a build attempt using CircleCI.
+<details>
+  <summary>See here the results of a build attempt using CircleCI.</summary>
+ 
 ![Build Image A](.circleci/build_6.png)
 ![Build Image B](.circleci/build_6b.png)
+ 
+ </details>
 
 
 ## Weekly progress reports
@@ -298,10 +302,13 @@ See here the results of a build attempt using CircleCI.
 
 ## References
 
-Prioritzation Techniques Article. SimpliLearn. 2021 [Blog]. Available at [https://www.simplilearn.com/agile-prioritization-techniques-article](https://www.simplilearn.com/agile-prioritization-techniques-article)
+Prioritization Techniques Article. SimpliLearn. 2021 [Blog]. Available at [https://www.simplilearn.com/agile-prioritization-techniques-article](https://www.simplilearn.com/agile-prioritization-techniques-article)
  (Accessed on 17 November 2021)
  
  Non-Functional Requirements as User Stories. Mountain Goat Software. 2013 [Blog]. Available at [https://www.mountaingoatsoftware.com/blog/non-functional-requirements-as-user-stories](https://www.mountaingoatsoftware.com/blog/non-functional-requirements-as-user-stories)
  (Accessed on 27 November 2021)
  
  Types of Constraints. IBM. 2014 [Blog]. Available at [https://www.ibm.com/docs/en/ias?topic=constraints-types](https://www.ibm.com/docs/en/ias?topic=constraints-types) (Accessed on 8 January 2022)
+ 
+ GitHub CI/CD tutorial: Setting up continuous integration. CircleCI Blog. 12 April 2021 [Blog]. Available at [https://circleci.com/blog/setting-up-continuous-integration-with-github/](https://circleci.com/blog/setting-up-continuous-integration-with-github/) (Accessed on 11 January 2022)
+
